@@ -1,4 +1,0 @@
-fips,county,year,pm25_mean,ozone_8hr_avg,rsei_tox_air,impaired_stream_miles,npdes_permits_count,avg_temp_f,annual_precip_in
-37001,,2024,8.3,0.061,1.25,42.7,18,60.1,46.2
-37119,,2024,8.8,0.063,2.10,35.4,72,62.4,43.9
-# replace with real values by running scripts
