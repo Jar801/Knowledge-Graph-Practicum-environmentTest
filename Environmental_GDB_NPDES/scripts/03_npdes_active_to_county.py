@@ -12,7 +12,7 @@ NPDES permits from FileGDB (points) → filter ACTIVE → point-in-polygon count
 p = argparse.ArgumentParser()
 p.add_argument('--npdes-gdb', required=True)
 p.add_argument('--counties', required=True)
-p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/_npdes_active_by_county.csv')
+p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/npdes_active_by_county.csv')
 args = p.parse_args()
 
 Path('Environmental_GDB_NPDES/data/processed').mkdir(parents=True, exist_ok=True)

@@ -12,7 +12,7 @@ Impaired waters from FileGDB (polylines) → county intersection → miles per c
 p = argparse.ArgumentParser()
 p.add_argument('--impaired-gdb', required=True)
 p.add_argument('--counties', required=True)
-p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/_impaired_streams_by_county.csv')
+p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/impaired_streams_by_county.csv')
 args = p.parse_args()
 
 Path('Environmental_GDB_NPDES/data/processed').mkdir(parents=True, exist_ok=True)

@@ -11,7 +11,7 @@ Extract raw indicators only: PM25, OZONE, RSEI_AIR.
 
 p = argparse.ArgumentParser()
 p.add_argument('--ejscreen', required=True)
-p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/_ejscreen_county.csv')
+p.add_argument('--out', default='Environmental_GDB_NPDES/data/processed/ejscreen_county.csv')
 args = p.parse_args()
 
 Path('Environmental_GDB_NPDES/data/processed').mkdir(parents=True, exist_ok=True)

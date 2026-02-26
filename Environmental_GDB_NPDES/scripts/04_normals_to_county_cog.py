@@ -25,7 +25,7 @@ import sys
 
 DEFAULT_TEMP = "Environmental_GDB_NPDES/data/raw/ncei_normals_temp.tif"
 DEFAULT_PRCP = "Environmental_GDB_NPDES/data/raw/ncei_normals_prcp.tif"
-DEFAULT_OUT  = "Environmental_GDB_NPDES/data/processed/_ncei_normals_by_county.csv"
+DEFAULT_OUT  = "Environmental_GDB_NPDES/data/processed/ncei_normals_by_county.csv"
 
 def _read_counties_with_fips(counties_path: str) -> gpd.GeoDataFrame:
     g = gpd.read_file(counties_path)
